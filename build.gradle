@@ -1,0 +1,13 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile name: 'spring-social-facebook-marketing-all-0.1.2-SNAPSHOT'
+}
+
