@@ -17,7 +17,11 @@ public class App {
 		FacebookAds template = new FacebookAdsTemplate(accessToken);
 //		AdAccountCheck.run(template, userId);
 //		AdCampaignCheck.run(template, accountId);
-		AdSetCheck.run(template, accountId, campaignId, adSetId);
+//		AdSetCheck.run(template, accountId, campaignId, adSetId);
+
+		AdCreativeCheck.run(template, accountId, adSetId);
+
 	}
+
 
 }
