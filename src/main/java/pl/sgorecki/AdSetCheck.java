@@ -6,9 +6,9 @@ import pl.sgorecki.facebook.marketing.ads.*;
 import java.util.Arrays;
 
 /**
- * Created by janusz on 09.12.2015.
+ * @author Sebastian Górecki
  */
-public class AdSetCheck {
+class AdSetCheck {
 	private AdSetCheck() {
 		throw new AssertionError();
 	}

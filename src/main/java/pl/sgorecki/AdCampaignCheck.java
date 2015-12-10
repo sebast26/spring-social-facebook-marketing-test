@@ -6,7 +6,7 @@ import pl.sgorecki.facebook.marketing.ads.*;
 /**
  * @author Sebastian Górecki
  */
-public class AdCampaignCheck {
+class AdCampaignCheck {
 	private AdCampaignCheck() {
 		throw new AssertionError();
 	}

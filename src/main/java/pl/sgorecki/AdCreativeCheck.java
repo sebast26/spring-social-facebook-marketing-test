@@ -7,7 +7,7 @@ import pl.sgorecki.facebook.marketing.ads.FacebookAds;
 /**
  * @author Sebastian Górecki
  */
-public class AdCreativeCheck {
+class AdCreativeCheck {
 	private AdCreativeCheck() {
 		throw new AssertionError();
 	}

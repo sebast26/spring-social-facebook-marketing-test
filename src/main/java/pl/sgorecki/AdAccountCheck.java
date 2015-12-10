@@ -9,7 +9,7 @@ import java.util.UUID;
 /**
  * @author Sebastian Górecki
  */
-public class AdAccountCheck {
+class AdAccountCheck {
 	private AdAccountCheck() {
 		throw new AssertionError();
 	}

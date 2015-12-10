@@ -15,13 +15,10 @@ public class App {
 		String adSetId = args[4];
 
 		FacebookAds template = new FacebookAdsTemplate(accessToken);
-//		AdAccountCheck.run(template, userId);
-//		AdCampaignCheck.run(template, accountId);
-//		AdSetCheck.run(template, accountId, campaignId, adSetId);
-
+		AdAccountCheck.run(template, userId);
+		AdCampaignCheck.run(template, accountId);
+		AdSetCheck.run(template, accountId, campaignId, adSetId);
 		AdCreativeCheck.run(template, accountId, adSetId);
-
+		AdCheck.run(template, accountId, campaignId, adSetId);
 	}
-
-
 }
